@@ -1,0 +1,92 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+APP_VERVISON	utils.c	/^#define APP_VERVISON /;"	d	file:
+BLOCK_FLAG_HEADER	venc.c	/^#define BLOCK_FLAG_HEADER /;"	d	file:
+BLOCK_FLAG_TYPE_B	venc.c	/^#define BLOCK_FLAG_TYPE_B /;"	d	file:
+BLOCK_FLAG_TYPE_I	venc.c	/^#define BLOCK_FLAG_TYPE_I /;"	d	file:
+BLOCK_FLAG_TYPE_P	venc.c	/^#define BLOCK_FLAG_TYPE_P /;"	d	file:
+BLOCK_FLAG_TYPE_PB	venc.c	/^#define BLOCK_FLAG_TYPE_PB /;"	d	file:
+Callback	cool_video.c	/^static int Callback(int channel, XD_StreamBlock *block, void *userData)$/;"	f	typeref:typename:int	file:
+GetFilePostfix	video.c	/^static HI_S32 GetFilePostfix(PAYLOAD_TYPE_E enPayload, char *szFilePostfix)$/;"	f	typeref:typename:HI_S32	file:
+GetVencStreamProc	video.c	/^static HI_VOID *GetVencStreamProc(HI_VOID *p)$/;"	f	typeref:typename:HI_VOID *	file:
+HI_MPI_SYS_GetReg	sys.c	/^int HI_MPI_SYS_GetReg(uint32_t u32Addr, uint32_t *pu32Value)$/;"	f	typeref:typename:int
+HI_MPI_SYS_SetReg	sys.c	/^int HI_MPI_SYS_SetReg(uint32_t u32Addr, uint32_t u32Value)$/;"	f	typeref:typename:int
+MAX_CALLBACKS	venc.h	/^#define MAX_CALLBACKS /;"	d
+MAX_CHANNELS	rtspserver.c	/^#define MAX_CHANNELS /;"	d	file:
+MAX_FRAME_LENGTH	venc.c	/^#define MAX_FRAME_LENGTH /;"	d	file:
+MAX_THM_SIZE	venc.c	/^#define MAX_THM_SIZE /;"	d	file:
+MAX_VENC_CHANNELS	venc.h	/^#define MAX_VENC_CHANNELS /;"	d
+MY_VENC_Create	video.c	/^static HI_S32 MY_VENC_Create(VENC_GOP_ATTR_S *pstGopAttr)$/;"	f	typeref:typename:HI_S32	file:
+PIC_SIZE	video.c	/^#define PIC_SIZE /;"	d	file:
+RTSPSERVER_H	rtspserver.h	/^#define	RTSPSERVER_H$/;"	d
+RtspID	rtspserver.c	/^struct RtspID$/;"	s	file:
+SAMPLE_VENC_CheckSensor	video.c	/^HI_S32 SAMPLE_VENC_CheckSensor(SAMPLE_SNS_TYPE_E enSnsType, SIZE_S stSize)$/;"	f	typeref:typename:HI_S32
+SAMPLE_VENC_GetIntraRefreshMode	video.c	/^VENC_INTRA_REFRESH_MODE_E SAMPLE_VENC_GetIntraRefreshMode(void)$/;"	f	typeref:typename:VENC_INTRA_REFRESH_MODE_E
+SAMPLE_VENC_ModifyResolution	video.c	/^HI_S32 SAMPLE_VENC_ModifyResolution(SAMPLE_SNS_TYPE_E enSnsType, PIC_SIZE_E *penSize, SIZE_S *ps/;"	f	typeref:typename:HI_S32
+SAMPLE_VENC_SYS_Init	video.c	/^HI_S32 SAMPLE_VENC_SYS_Init(HI_U32 u32SupplementConfig, SAMPLE_SNS_TYPE_E enSnsType)$/;"	f	typeref:typename:HI_S32
+SAMPLE_VENC_SetDCFInfo	video.c	/^HI_VOID SAMPLE_VENC_SetDCFInfo(VI_PIPE ViPipe)$/;"	f	typeref:typename:HI_VOID
+SAMPLE_VENC_VI_Init	video.c	/^HI_S32 SAMPLE_VENC_VI_Init(SAMPLE_VI_CONFIG_S *pstViConfig, HI_BOOL bLowDelay, HI_U32 u32Supplem/;"	f	typeref:typename:HI_S32
+SAMPLE_VENC_VPSS_Init	video.c	/^HI_S32 SAMPLE_VENC_VPSS_Init(VPSS_GRP VpssGrp, HI_BOOL *pabChnEnable, DYNAMIC_RANGE_E enDynamicR/;"	f	typeref:typename:HI_S32
+SMP_INC	Makefile	/^SMP_INC := -I$(PWD)\/$/;"	m
+SYS_H	sys.h	/^#define SYS_H$/;"	d
+StreamCallback	venc.h	/^typedef int (*StreamCallback)(int channel, XD_StreamBlock *block, void *userData);$/;"	t	typeref:typename:int (*)(int channel,XD_StreamBlock * block,void * userData)
+TARGET	Makefile	/^TARGET := cool_rtsp_demo$/;"	m
+TARGET_PATH	Makefile	/^TARGET_PATH := $(PWD)\/$/;"	m
+TEMP_BUF_LEN	venc.c	/^#define TEMP_BUF_LEN /;"	d	file:
+UTILS_H	utils.h	/^#define UTILS_H$/;"	d
+VIDEO_H	video.h	/^#define VIDEO_H$/;"	d
+__VENC_H_	venc.h	/^#define __VENC_H_$/;"	d
+callbacks	venc.h	/^    } callbacks[MAX_VENC_CHANNELS][MAX_CALLBACKS];$/;"	m	struct:stream	typeref:struct:stream::pairs[][]
+cb	venc.h	/^        StreamCallback cb;$/;"	m	struct:stream::pairs	typeref:typename:StreamCallback
+convertFlags	venc.c	/^static int convertFlags(H264E_NALU_TYPE_E type)$/;"	f	typeref:typename:int	file:
+create_and_start_vpss_grp0	video.c	/^static HI_S32 create_and_start_vpss_grp0(HI_BOOL *abChnEnable, VPSS_CHN_ATTR_S *astVpssChnAttr, /;"	f	typeref:typename:HI_S32	file:
+create_venc_normal	video.c	/^static HI_S32 create_venc_normal(void)$/;"	f	typeref:typename:HI_S32	file:
+data	venc.h	/^    uint8_t *data;$/;"	m	struct:stream	typeref:typename:uint8_t *
+doCallback	venc.c	/^void doCallback(struct stream *s, int channel, VENC_STREAM_S *pstStream)$/;"	f	typeref:typename:void
+exit	venc.h	/^    int exit;$/;"	m	struct:stream	typeref:typename:int
+find_slot	venc.c	/^static int find_slot(int channel)$/;"	f	typeref:typename:int	file:
+gRtspSvr	rtspserver.c	/^static RTSP_SVR *gRtspSvr = 0;$/;"	v	typeref:typename:RTSP_SVR *	file:
+gStream	venc.c	/^struct stream gStream;$/;"	v	typeref:struct:stream
+get_app_version	utils.c	/^const char *get_app_version()$/;"	f	typeref:typename:const char *
+get_current_time	utils.c	/^int get_current_time(char *psDateTime)$/;"	f	typeref:typename:int
+get_sys_version	utils.c	/^const char *get_sys_version()$/;"	f	typeref:typename:const char *
+gs_s32SnapCnt	venc.c	/^static HI_S32 gs_s32SnapCnt = 0;$/;"	v	typeref:typename:HI_S32	file:
+handler_sig	cool_video.c	/^static void handler_sig(HI_S32 signo)$/;"	f	typeref:typename:void	file:
+init_param	cool_video.c	/^static int init_param(int argc, char **argv)$/;"	f	typeref:typename:int	file:
+init_vi_config	video.c	/^static void init_vi_config(void)$/;"	f	typeref:typename:void	file:
+internal_start	cool_video.c	/^static int internal_start(int type)$/;"	f	typeref:typename:int	file:
+internal_stop	cool_video.c	/^static int internal_stop()$/;"	f	typeref:typename:int	file:
+isExit	cool_video.c	/^static int isExit = 0;$/;"	v	typeref:typename:int	file:
+length	venc.h	/^    int length;$/;"	m	struct:stream	typeref:typename:int
+main	cool_video.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+mutex	venc.h	/^    pthread_mutex_t mutex;$/;"	m	struct:stream	typeref:typename:pthread_mutex_t
+opaque	venc.h	/^        void *opaque;$/;"	m	struct:stream::pairs	typeref:typename:void *
+pairs	venc.h	/^    struct pairs$/;"	s	struct:stream
+rtspIDs	rtspserver.c	/^static struct RtspID rtspIDs[MAX_CHANNELS];$/;"	v	typeref:struct:RtspID[]	file:
+rtsp_push_data	rtspserver.c	/^int rtsp_push_data(int channel, XD_StreamBlock *block, void *opaque)$/;"	f	typeref:typename:int
+rtsp_start	rtspserver.c	/^int rtsp_start()$/;"	f	typeref:typename:int
+rtsp_stop	rtspserver.c	/^void rtsp_stop()$/;"	f	typeref:typename:void
+stViConfig	video.c	/^static SAMPLE_VI_CONFIG_S stViConfig;$/;"	v	typeref:typename:SAMPLE_VI_CONFIG_S	file:
+start_venc	video.c	/^static HI_S32 start_venc(VENC_CHN VencChn, HI_U32 u32Profile, HI_BOOL bRcnRefShareBuf, VENC_GOP_/;"	f	typeref:typename:HI_S32	file:
+strcpy_ss2	utils.c	/^int strcpy_ss2(char *strDestination, int numberOfElements, const char *strSource)$/;"	f	typeref:typename:int
+stream	venc.h	/^struct stream$/;"	s
+streamID	rtspserver.c	/^    int streamID;$/;"	m	struct:RtspID	typeref:typename:int	file:
+stream_add_callback	venc.c	/^int stream_add_callback(int channel, StreamCallback cb, void *opaque)$/;"	f	typeref:typename:int
+stream_del_callback	venc.c	/^int stream_del_callback(int channel, StreamCallback cb, void *opaque)$/;"	f	typeref:typename:int
+stream_destory	venc.c	/^int stream_destory()$/;"	f	typeref:typename:int
+stream_init	venc.c	/^int stream_init()$/;"	f	typeref:typename:int
+strtime_to_inttime	utils.c	/^int strtime_to_inttime(const char *strtime, int *hour, int *minute)$/;"	f	typeref:typename:int
+trackAudioID	rtspserver.c	/^    int trackAudioID;$/;"	m	struct:RtspID	typeref:typename:int	file:
+trackVideoID	rtspserver.c	/^    int trackVideoID;$/;"	m	struct:RtspID	typeref:typename:int	file:
+vencChannels	venc.h	/^    int vencChannels[MAX_VENC_CHANNELS];$/;"	m	struct:stream	typeref:typename:int[]
+videoBuffer	venc.h	/^    HI_U8 videoBuffer[1024 * 1024];$/;"	m	struct:stream	typeref:typename:HI_U8[]
+video_get_frame	video.c	/^int video_get_frame(VIDEO_FRAME_INFO_S *pstVideoFrame, int millisec)$/;"	f	typeref:typename:int
+video_release_frame	video.c	/^int video_release_frame(VIDEO_FRAME_INFO_S *pstVideoFrame)$/;"	f	typeref:typename:int
+video_start	video.c	/^int video_start(void)$/;"	f	typeref:typename:int
+video_start_bak	video.c	/^int video_start_bak(void)$/;"	f	typeref:typename:int
+video_stop	video.c	/^int video_stop()$/;"	f	typeref:typename:int

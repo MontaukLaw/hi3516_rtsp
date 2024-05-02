@@ -1,0 +1,893 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/cool_video.o', needed by 'cool_rtsp_demo'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu May  2 11:29:42 2024
+
+# Variables
+
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 80)
+CONFIG_HI_VI_USERPIC_SUPPORT = y
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from '../../Makefile.param', line 283)
+COMMON_INCLUDE := -I/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../osal/include
+# automatic
+?F = $(notdir $?)
+# environment
+PAPERSIZE = a4
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 214)
+CONFIG_HI_VO_VGS = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 95)
+CONFIG_HI_ISP_CR_SUPPORT = y
+# default
+.SHELLFLAGS := -c
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 67)
+CONFIG_HI_VI_SUPPORT = y
+# makefile (from '../../Makefile.param', line 268)
+VER_Y = 0
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AGENT_FOLDER = /home/marc/.vscode-server
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 294)
+CONFIG_HI_SVP_MD = y
+# makefile (from '../../Makefile.param', line 271)
+VER_B = 10
+# environment
+XDG_SESSION_TYPE = tty
+# makefile (from '../../Makefile.param', line 269)
+VER_Z = 0
+# makefile (from 'Makefile', line 8)
+TARGET := cool_rtsp_demo
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 116)
+CONFIG_HI_VPSS_LUMA_STAT_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 124)
+CONFIG_HI_VPSS_SPREAD_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 120)
+CONFIG_HI_VPSS_MOSAIC_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 350)
+CONFIG_HI_GDB = n
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from '../Makefile.param', line 122)
+COMM_SRC := /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vpss.c /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vdec.c /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vi.c /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_region.c /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_isp.c /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_audio.c /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/loadbmp.c /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vo.c /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_venc.c /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_sys.c
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 93)
+CONFIG_HI_ISP_SUPPORT = y
+# makefile (from '../../Makefile.param', line 177)
+AUDIO_NEW_ARCH = hi3516ev200 hi3516cv500
+# makefile
+CURDIR := /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp
+# makefile (from '../Makefile.param', line 127)
+MEDIA_MSG_CLIENT_SRC := 
+# makefile
+SHELL = /bin/sh
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 236)
+CONFIG_HI_TALKVQE_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 348)
+CONFIG_HI_GDB_NO = y
+# makefile (from '../../Makefile.param', line 109)
+DRV_ROOT = $(SDK_PATH)/drv
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","osLocale":"en","availableLanguages":{}}
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 41)
+CONFIG_USER_BIT = USER_BIT_32
+# environment
+_ = /usr/bin/make
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../smp_linux.mak', line 5)
+CFLAGS = -lmp4v2 -L/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/lib -lopencv_world -L/home/marc/opencv3/opencv-3.4.3/install/lib -live -Wall -g $(INC_FLAGS) -D$(HIARCH) -D$(HI_FPGA) -lpthread -lm -ldl -D$(ISP_VERSION) -lstdc++ $(LIBS_CFLAGS) $(MPP_CFLAGS) -DSENSOR0_TYPE=$(SENSOR0_TYPE) -DSENSOR1_TYPE=$(SENSOR1_TYPE) -DHI_ACODEC_TYPE_INNER -DHI_ACODEC_TYPE_HDMI $(COMM_INC)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 72)
+CONFIG_HI_VI_LDCV2_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 35)
+CONFIG_HI_CROSS = arm-himix200-linux-
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 187)
+CONFIG_HI_RC_QVBR_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 60)
+OSDRV_PATH := /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../../../osdrv/opensource/kernel/linux-4.9.y-smp/../../..
+# makefile (from '../Makefile.param', line 97)
+INNER_HDMI = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 164)
+CONFIG_HI_H264E_INTRA_REFRESH_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 24)
+CONFIG_CPU_TYPE = a7
+# makefile (from '../../Makefile.param', line 270)
+VER_P = 0
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../smp_linux.mak', line 1)
+MAKEFILE_LIST :=  Makefile ../Makefile.param ../../Makefile.param /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../smp_linux.mak
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 215)
+CONFIG_HI_VO_GRAPH = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 97)
+CONFIG_HI_ISP_GCAC_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 123)
+CONFIG_HI_VPSS_BUFFER_REUSE_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 44)
+CONFIG_HI_RLS_MODE = HI_RELEASE
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 182)
+CONFIG_HI_VENC_SCENE0_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 161)
+CONFIG_HI_H264E_SVC_SUPPORT = y
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from '../../Makefile.param', line 37)
+ARM_ARCH = $(CONFIG_ARM_ARCH_TYPE)
+# environment
+MAKELEVEL := 0
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 142)
+CONFIG_HI_VGS_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 32)
+CONFIG_KERNEL_VERSION = linux-4.9.y
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from '../Makefile.param', line 125)
+COMM_INC := -I/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common -I/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../audio/adp
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 66)
+CC := arm-himix200-linux-gcc
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 200)
+CONFIG_HI_JPEGD_PROGRESSIVE = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 37)
+CONFIG_KERNEL_BIT = KERNEL_BIT_32
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../smp_linux.mak', line 3)
+OBJS := /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/video.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/rtspserver.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/cool_video.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/sys.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/venc.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/utils.o
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 79)
+CONFIG_HI_VI_3DNRX_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 34)
+CONFIG_KERNEL_ARM_HIMIX200_LINUX = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 204)
+CONFIG_VDEC_USERDATA_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 293)
+CONFIG_HI_SVP_IVE_HOG = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 183)
+CONFIG_HI_VENC_SCENE1_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 112)
+CONFIG_HI_VPSS_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 288)
+CONFIG_HI_SVP_IVE_NORM_GRAD = y
+# environment
+LC_NAME = en_HK.UTF-8
+# environment
+VSCODE_CWD = /home/marc
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 136)
+CONFIG_HI_GDC_FISHEYE_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 4)
+CVER = .C02
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 198)
+CONFIG_HI_JPEGD_SUPPORT = y
+# makefile (from '../Makefile.param', line 128)
+MEDIA_MSG_CLIENT_OBJ := 
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 42)
+CONFIG_RELEASE_TYPE_RELEASE = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 78)
+DRV_CFLAGS := -Wall -Wno-error=implicit-function-declaration -Wno-date-time
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 223)
+CONFIG_HI_RGN_VGS_QUICKCOPY_SUPPORT = y
+# environment
+SSH_CONNECTION = 192.168.1.242 54866 192.168.1.88 22
+# makefile (from '../../Makefile.param', line 215)
+AUDIO_LIBS = $(REL_LIB)/libVoiceEngine.so $(REL_LIB)/libupvqe.so $(REL_LIB)/libdnvqe.so $(REL_LIB)/libaaccomm.so $(REL_LIB)/libaacenc.so $(REL_LIB)/libaacdec.so
+# environment
+PATH = /home/marc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/remote-cli:/home/marc/rv1106/toolchain/env/arm-rockchip830-linux-uclibcgnueabihf/bin:/opt/hisi-linux/x86-arm/arm-himix200-linux/bin:/opt/cmake/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/marc/esp/xtensa-lx106-elf/bin
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 73)
+REL_INI := /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/init
+# makefile (from '../Makefile.param', line 80)
+ISP_VERSION := ISP_V2
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 30)
+CONFIG_OS_TYPE = linux
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 16)
+CONFIG_HI_SUBARCH = hi3516cv500
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 99)
+CONFIG_HI_ISP_EDGEMARK_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 209)
+CONFIG_HI_VO_SUPPORT = y
+# environment
+VSCODE_CLI_REQUIRE_TOKEN = 9e1edd62-fb3c-4d2f-b7c3-b9f6bf72951a
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 61)
+CONFIG_HI_SYS_SCALE_COEF_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 259)
+CONFIG_HI_SYSCFG = y
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 31)
+CONFIG_LINUX_4_9_y = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 270)
+CONFIG_HI_HDMI_SUPPORT = y
+# makefile (from 'Makefile', line 10)
+TARGET_PATH := /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 56)
+KERNEL_ROOT = $(SDK_PATH)/../../osdrv/opensource/kernel/$(KERNEL_NAME)$(POSTFIX)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 252)
+CONFIG_INTERDRV = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 102)
+CONFIG_HI_ISP_DPC_STATIC_TABLE_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 94)
+CONFIG_HI_ISP_AF_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 84)
+CONFIG_HI_VI_EXTCHN_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 45)
+CONFIG_CUSTOMER_VERSION_COMMON = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 69)
+CONFIG_HI_VI_MIPI = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 231)
+CONFIG_HI_ACODEC_MAX_GAIN = 56
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 67)
+AR := arm-himix200-linux-ar
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 165)
+CONFIG_HI_JPEGE_SUPPORT = y
+# makefile (from '../../Makefile.param', line 31)
+MPP_BUILD = n
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-99e23759-534e-40d7-b98d-ea7717c1f2b5.sock
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 234)
+CONFIG_HI_ACODEC_FAST_POWER_SUPPORT = y
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 292)
+CONFIG_HI_SVP_IVE_KCF = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 23)
+CONFIG_A7 = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 290)
+CONFIG_HI_SVP_IVE_RESIZE = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 351)
+CONFIG_HI_LOG_TRACE_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 40)
+CONFIG_HI_CROSS_LIB = arm-himix200-linux-
+# automatic
+%F = $(notdir $%)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 82)
+CONFIG_HI_VI_LUMA_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 194)
+CONFIG_HI_VDEC_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 28)
+CONFIG_LINUX_OS = y
+# makefile (from 'Makefile', line 3)
+SMP_SRCS = $(wildcard $(PWD)/*.c)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 282)
+CONFIG_HI_SVP_RUNTIME = y
+# makefile (from '../../Makefile.param', line 58)
+HI_RLS_MODE = $(CONFIG_HI_RLS_MODE)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 68)
+CONFIG_HI_VI_BT656 = y
+# makefile (from '../Makefile.param', line 69)
+SENSOR_LIBS := /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/lib_hiae.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libisp.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/lib_hidehaze.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/lib_hidrc.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/lib_hildci.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/lib_hicalcflicker.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/lib_hiawb.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libsns_imx327.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libsns_imx327_2l.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libsns_imx307.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libsns_imx307_2l.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libsns_imx458.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libsns_mn34220.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libsns_os05a.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libsns_os08a10.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libsns_gc2053.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libsns_sc4210.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libsns_ov12870.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libsns_os04b10.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libsns_imx415.a
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 174)
+CONFIG_HI_VENC_VGS_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 213)
+CONFIG_HI_VO_COVER_OSD_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 22)
+CONFIG_ARM_ARCH_TYPE = smp
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 186)
+CONFIG_HI_RC_QPMAP_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 150)
+CONFIG_HI_CHNL_SUPPORT = y
+# makefile (from '../../Makefile.param', line 132)
+EXTDRV := drv/extdrv
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 100)
+CONFIG_HI_ISP_HLC_SUPPORT = y
+# environment
+SSL_CERT_FILE = /usr/lib/ssl/certs/ca-certificates.crt
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 156)
+CONFIG_HI_H265E_SUPPORT = y
+# makefile (from '../../Makefile.param', line 18)
+PARAM_DIR = $(shell pwd)/$(shell dirname $(PARAM_FILE))
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 168)
+CONFIG_HI_JPEGE_USERDATA_SUPPORT = y
+# environment
+PWD = /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 74)
+CONFIG_HI_VI_SENDYUV_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 133)
+CONFIG_HI_GDC_SUPPORT = y
+# makefile (from 'Makefile', line 4)
+SMP_INC := -I/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/
+# default
+.LOADED := 
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 134)
+CONFIG_HI_GDC_LOWDELAY_SUPPORT = y
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 14)
+CONFIG_HI_CHIP_TYPE = 0x3516C500
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 230)
+CONFIG_HI_ACODEC_VERSION = V660
+ 
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 188)
+CONFIG_HI_RC_CVBR_SUPPORT = y
+# makefile (from '../Makefile.param', line 78)
+INC_FLAGS := -I/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/include -I/home/marc/opencv3/opencv-3.4.3/install/include
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 352)
+CONFIG_HI_LOG_TRACE_ALL = y
+# makefile (from '../../Makefile.param', line 134)
+SAMPLE_DIR = $(SDK_PATH)/mpp/sample
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 228)
+CONFIG_HI_AUDIO_SUPPORT = y
+# makefile (from '../../Makefile.param', line 30)
+PRODUCT = IPC
+# makefile (from '../../Makefile.param', line 110)
+OSAL_ROOT = $(SDK_PATH)/osal
+# makefile (from '../../Makefile.param', line 36)
+HICHIP = $(CONFIG_HI_CHIP_TYPE)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 173)
+CONFIG_HI_VENC_MPF_VGS_SUPPORT = y
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/marc
+# makefile (from '../Makefile.param', line 74)
+AUDIO_ADP_DIR = $(PWD)/../audio/adp
+# makefile (from '../Makefile.param', line 130)
+MEDIA_MSG_SERVER_SRC := 
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 289)
+CONFIG_HI_SVP_IVE_ST_CANDI_CORNER = y
+# makefile (from '../../Makefile.param', line 305)
+JPEGE := 
+# makefile (from '../../Makefile.param', line 46)
+EXT_DRV = $(CONFIG_HI_ARCH)
+# makefile (from '../../Makefile.param', line 108)
+MPP_PATH = $(PARAM_DIR)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 284)
+CONFIG_HI_SVP_IVE_CSC = y
+# makefile (from '../../Makefile.param', line 45)
+ARCH_DIR = $(CONFIG_HI_ARCH)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 166)
+CONFIG_HI_MJPEGE_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 19)
+POSTFIX := -smp
+# environment
+LOGNAME = marc
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 158)
+CONFIG_HI_H265E_USERDATA_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 229)
+CONFIG_HI_ACODEC_SUPPORT = y
+# makefile (from '../../Makefile.param', line 35)
+HI_SUBARCH = $(CONFIG_HI_SUBARCH)
+# automatic
++F = $(notdir $+)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 12)
+CONFIG_HI3516CV500 = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 18)
+CONFIG_SUBCHIP_HI3516CV500 = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 101)
+CONFIG_HI_ISP_SPECAWB_SUPPORT = y
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from '../../Makefile.param', line 133)
+REL_DIR = $(SDK_PATH)/mpp
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 167)
+CONFIG_HI_JPEGE_DCF_SUPPORT = y
+# makefile (from '../../Makefile.param', line 73)
+FPGA = $(CONFIG_HI_FPGA)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 160)
+CONFIG_HI_H264E_SUPPORT = y
+# makefile (from '../Makefile.param', line 94)
+ACODEC_TYPE = ACODEC_TYPE_INNER
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 15)
+CONFIG_HI_ARCH = hi3516cv500
+# environment
+LC_TIME = en_HK.UTF-8
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 258)
+CONFIG_HI_WDG = y
+# makefile (from '../../Makefile.param', line 42)
+ARCH_LIBNAME = $(CONFIG_HI_SUBARCH)
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from '../../Makefile.param', line 70)
+HIGDB = $(CONFIG_HI_GDB)
+# default
+MAKECMDGOALS := all
+# makefile (from '../../Makefile.param', line 53)
+OSTYPE = $(CONFIG_OS_TYPE)
+# environment
+SHLVL = 1
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 212)
+CONFIG_HI_VO_FB_SEPARATE = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 283)
+CONFIG_HI_SVP_IVE = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 281)
+CONFIG_HI_SVP_CNN = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 47)
+CONFIG_CUSTOMER_VERSION = COMMON
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 343)
+CONFIG_HISYSLINK = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 255)
+CONFIG_MIPI_TX = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 195)
+CONFIG_HI_H265D_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 197)
+CONFIG_VDEC_IP = VDEC_IP_VEDU
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 72)
+REL_OBJ := /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/obj
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 137)
+CONFIG_HI_GDC_NNIE_SHARE_RAM = y
+# makefile (from '../../Makefile.param', line 178)
+AUDIO_PATH = $(MPP_PATH)/cbb/audio/component/lib/$(HIARCH)/$(CROSS)/$(OSTYPE)
+# environment
+XDG_SESSION_ID = 2190
+# environment
+USER = marc
+# makefile (from '../../Makefile.param', line 77)
+CROSS = $(CONFIG_HI_CROSS_LIB)
+# environment
+LC_MONETARY = en_HK.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 172)
+CONFIG_HI_VENC_FRAMEBUF_RECYCLE_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 98)
+CONFIG_HI_ISP_CA_SUPPORT = y
+# makefile (from '../../Makefile.param', line 107)
+SDK_PATH = $(PARAM_DIR)/..
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 163)
+CONFIG_HI_H264E_USERDATA_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 74)
+ADAPT_INC := /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/include/adapt
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 254)
+CONFIG_HIUSER = y
+# makefile (from '../../Makefile.param', line 261)
+LIBS_CFLAGS := -Wall -mcpu=cortex-a7 -mfloat-abi=softfp -mfpu=neon-vfpv4 -fno-aggressive-loop-optimizations -ldl -ffunction-sections -fdata-sections -O2 -fstack-protector-strong -fPIC
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 178)
+CONFIG_HI_VENC_DUALP_SUPPORT = y
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 39)
+CONFIG_USER_ARM_HIMIX200_LINUX = y
+# environment
+LC_TELEPHONE = en_HK.UTF-8
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 181)
+CONFIG_HI_VENC_SKIPREF_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 176)
+CONFIG_HI_VENC_SMARTP_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 233)
+CONFIG_HI_ACODEC_GAIN_STEP = 3
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 232)
+CONFIG_HI_ACODEC_MIN_GAIN = 0
+# default
+MAKE_COMMAND := make
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 275)
+CONFIG_HI_HIFB_SUPPORT = y
+# makefile (from '../../Makefile.param', line 54)
+KERNEL_NAME = $(CONFIG_KERNEL_VERSION)
+# makefile (from '../../Makefile.param', line 100)
+HI_FPGA := HI_XXXX
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN:en_US:en
+# makefile (from '../../Makefile.param', line 67)
+CPU_TYPE = $(CONFIG_CPU_TYPE)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 180)
+CONFIG_HI_VENC_DEBREATH_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 286)
+CONFIG_HI_SVP_IVE_NCC = y
+# makefile (from '../../Makefile.param', line 25)
+ARCH = arm
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from '../Makefile.param', line 138)
+LITEOS_BIN_SUPPORT_VI := y
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 192.168.1.242 54866 22
+# makefile (from '../Makefile.param', line 42)
+SENSOR0_TYPE = GALAXYCORE_GC2053_MIPI_2M_30FPS_10BIT
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 196)
+CONFIG_HI_H264D_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 69)
+REL_INC := /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/include
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# makefile (from '../../Makefile.param', line 305)
+DCF= := 
+# environment
+LC_PAPER = en_HK.UTF-8
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 169)
+CONFIG_HI_VENC_LOWDELAY_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 291)
+CONFIG_HI_SVP_IVE_PERSP_TRANS = y
+# environment
+BROWSER = /home/marc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/helpers/browser.sh
+# makefile (from '../../Makefile.param', line 22)
+HIWORK_PATH = /hiwork
+# makefile (from '../Makefile.param', line 123)
+COMM_OBJ := /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vpss.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vdec.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vi.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_region.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_isp.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_audio.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/loadbmp.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vo.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_venc.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_sys.o
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 185)
+CONFIG_HI_RC_AVBR_SUPPORT = y
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# makefile (from '../../Makefile.param', line 76)
+CROSS_COMPILE = $(CONFIG_HI_CROSS)
+# makefile (from '../../Makefile.param', line 267)
+VER_X = 1
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 179)
+CONFIG_HI_VENC_RCNREF_SHARE_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 237)
+CONFIG_HI_RECORDVQE_SUPPORT = y
+# makefile (from '../../Makefile.param', line 63)
+DBG_FLAG = 0
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# makefile (from '../Makefile.param', line 43)
+SENSOR1_TYPE = GALAXYCORE_GC2053_MIPI_2M_30FPS_10BIT
+# environment
+LC_NUMERIC = en_HK.UTF-8
+# automatic
+<F = $(notdir $<)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 76)
+LIBS_LD_CFLAGS :=  -mcpu=cortex-a7 -mfloat-abi=softfp -mfpu=neon-vfpv4 -fno-aggressive-loop-optimizations -Wl,-z,relro -Wl,-z,noexecstack -Wl,-z,now,-s -ldl
+# makefile (from '../Makefile.param', line 131)
+MEDIA_MSG_SERVER_OBJ := 
+# makefile (from '../../Makefile.param', line 211)
+AUDIO_LIBA = $(REL_LIB)/libVoiceEngine.a $(REL_LIB)/libupvqe.a $(REL_LIB)/libdnvqe.a
+# environment
+LC_MEASUREMENT = en_HK.UTF-8
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 304)
+CONFIG_HI_TDE_SUPPORT = y
+# makefile (from '../../Makefile.param', line 47)
+INTER_DRV = $(CONFIG_HI_ARCH)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 257)
+CONFIG_HI_IR = y
+# makefile (from '../Makefile.param', line 73)
+COMMON_DIR = $(PWD)/../common
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 119)
+CONFIG_HI_VPSS_COVER_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 235)
+CONFIG_HI_DOWNVQE_SUPPORT = y
+# environment
+LC_ALL = C
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 60)
+CONFIG_HI_SYS_SUPPORT = y
+# makefile (from '../../Makefile.param', line 34)
+HIARCH = $(CONFIG_HI_ARCH)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 256)
+CONFIG_MIPI_RX = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 83)
+CONFIG_HI_VI_FPN_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 26)
+CONFIG_VERSION_ASIC = y
+# makefile (from '../../Makefile.param', line 50)
+LIBC = $(CONFIG_LIBC_TYPE)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 87)
+HI_KBUILD_EXTRA_SYMBOLS :=  "/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../osal/linux/kernel/Module.symvers" "/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cbb/base/Module.symvers" "/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cbb/sys/Module.symvers"
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 184)
+CONFIG_HI_VENC_SCENE2_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 86)
+CONFIG_HI_SNAP_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 81)
+CONFIG_HI_VI_COVEREX_OVERLAYEX_SUPPORT = y
+# environment
+SSL_CERT_DIR = /usr/lib/ssl/certs
+# automatic
+^F = $(notdir $^)
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 17)
+CONFIG_HI_SUBCHIP_TYPE = 0x3516C500
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 20)
+CONFIG_SMP = y
+# default
+SUFFIXES := 
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 251)
+CONFIG_EXTDRV = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 356)
+CONFIG_HI_LOG_TRACE_LEVEL = 7
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 145)
+ 
+CONFIG_HI_VGS_LUMA_STAT_SUPPORT = y
+# makefile (from '../Makefile.param', line 135)
+MEDIA_MSG_INC := -I/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/media_msg/include -I/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../hisyslink/ipcmsg/include -I/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../hisyslink/datafifo/include
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 70)
+REL_LIB := /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 253)
+CONFIG_CIPHER = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 285)
+CONFIG_HI_SVP_IVE_FILTER_AND_CSC = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 155)
+CONFIG_HI_VENC_SUPPORT = y
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 71)
+CONFIG_HI_VI_LDCV1_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 280)
+CONFIG_HI_SVP_SUPPORT = y
+# environment
+LC_IDENTIFICATION = en_HK.UTF-8
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 36)
+CONFIG_LIBC_TYPE = glibc
+# default
+.RECIPEPREFIX := 
+# makefile (from '../Makefile.param', line 4)
+PARAM_FILE := ../../Makefile.param
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 96)
+CONFIG_HI_ISP_PREGAMMA_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 287)
+CONFIG_HI_SVP_IVE_LBP = y
+# environment
+LC_ADDRESS = en_HK.UTF-8
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../smp_linux.mak', line 7)
+MPI_LIBS := /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libmpi.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libXD_Stream.a /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/lib/libhdmi.a
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 27)
+CONFIG_HI_FPGA = n
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 250)
+CONFIG_DRV = y
+# environment
+LANG = C
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 113)
+CONFIG_HI_VPSS_3DNR = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 170)
+CONFIG_HI_VENC_VPSSAUTO_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 107)
+CONFIG_HI_DIS_SUPPORT = y
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 71)
+REL_KO := /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../../mpp/ko
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 221)
+CONFIG_HI_REGION_SUPPORT = y
+# makefile (from '../Makefile.param', line 98)
+GYRO_DIS = n
+# environment
+MOTD_SHOWN = pam
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param', line 77)
+MPP_CFLAGS := -Wall  -DHI_RELEASE -Wno-error=implicit-function-declaration -DVER_X=1 -DVER_Y=0 -DVER_Z=0 -DVER_P=0 -DVER_B=10 -DUSER_BIT_32 -DKERNEL_BIT_32 -Wno-date-time
+# makefile (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak', line 159)
+CONFIG_HI_H265E_INTRA_REFRESH_SUPPORT = y
+# variable set hash-table stats:
+# Load=319/1024=31%, Rehash=0, Collisions=172/835=21%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 14188625): 24 files, no impossibilities.
+# /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp (device 66306, inode 14188625): 24 files, no impossibilities.
+# /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/media_msg/server: could not be stat'd.
+# /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common (device 66306, inode 13013669): 25 files, no impossibilities.
+# /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/media_msg/client: could not be stat'd.
+
+# 73 files, no impossibilities in 5 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/venc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../cfg.mak:
+#  Implicit rule search has been done.
+#  Last modified 2019-09-10 19:48:58
+#  File has been updated.
+#  Successfully updated.
+
+all: cool_rtsp_demo
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: clean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/loadbmp.o:
+#  Implicit rule search has been done.
+#  Last modified 2024-05-02 11:22:40.75717309
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../Makefile.param:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-16 18:10:24.570476898
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_isp.o:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2024-05-02 11:22:40.453173073
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_venc.o:
+#  Implicit rule search has been done.
+#  Last modified 2024-05-02 11:22:41.481173128
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/video.o:
+#  Implicit rule search has been done.
+#  Last modified 2024-05-02 11:22:41.805173146
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2024-03-31 11:00:29.813445768
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../../Makefile.linux.param:
+#  Implicit rule search has been done.
+#  Last modified 2019-09-10 19:48:58
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/sys.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vdec.o:
+#  Implicit rule search has been done.
+#  Last modified 2024-05-02 11:22:39.721173034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_sys.o:
+#  Implicit rule search has been done.
+#  Last modified 2024-05-02 11:22:41.633173136
+#  File has been updated.
+#  Successfully updated.
+
+cleanstream:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../smp_linux.mak', line 22):
+	@rm -f *.h264
+	@rm -f *.h265
+	@rm -f *.jpg
+	@rm -f *.mjp
+	@rm -f *.mp4
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vpss.o:
+#  Implicit rule search has been done.
+#  Last modified 2024-05-02 11:22:39.481173022
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/rtspserver.o:
+#  Implicit rule search has been done.
+#  Last modified 2024-05-02 11:22:41.845173148
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/cool_video.o:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vi.o:
+#  Implicit rule search has been done.
+#  Last modified 2024-05-02 11:22:40.19317306
+ 
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../smp_linux.mak', line 17):
+	@rm -f $(TARGET_PATH)/$(TARGET)
+	@rm -f $(OBJS)
+	@rm -f $(COMM_OBJ)
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vo.o:
+#  Implicit rule search has been done.
+#  Last modified 2024-05-02 11:22:41.14117311
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_audio.o:
+#  Implicit rule search has been done.
+#  Last modified 2024-05-02 11:22:40.649173084
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_region.o:
+#  Implicit rule search has been done.
+#  Last modified 2024-05-02 11:22:40.341173067
+#  File has been updated.
+#  Successfully updated.
+
+cool_rtsp_demo: /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vpss.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vdec.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vi.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_region.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_isp.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_audio.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/loadbmp.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_vo.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_venc.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../common/sample_comm_sys.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/video.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/rtspserver.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/cool_video.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/sys.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/venc.o /home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/utils.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../smp_linux.mak', line 14):
+	@$(CC) $(CFLAGS) -lpthread -lm -o $(TARGET_PATH)/$@ $^ -Wl,--start-group $(MPI_LIBS) $(SENSOR_LIBS) $(AUDIO_LIBA) $(REL_LIB)/libsecurec.a $(REL_LIB)/libsns_imx335.a -Wl,--end-group
+
+# Not a target:
+../../Makefile.param:
+#  Implicit rule search has been done.
+#  Last modified 2019-09-10 19:48:58
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/cool_rtsp/../smp_linux.mak:
+#  Implicit rule search has been done.
+#  Last modified 2019-09-10 19:48:58
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=29/1024=3%, Rehash=0, Collisions=6/66=9%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 81 / storage = 2963 B / avg = 36 B
+# current buf: size = 8162 B / used = 2963 B / count = 81 / avg = 36 B
+
+# strcache performance: lookups = 101 / hit rate = 19%
+# hash-table stats:
+ 
+# Load=81/8192=1%, Rehash=0, Collisions=4/101=4%
+# Finished Make data base on Thu May  2 11:29:42 2024
+
+ 

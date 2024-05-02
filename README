@@ -1,0 +1,18 @@
+20240331
+1. 将整个目录复制到3516的sdk的mpp目录下
+结构类似:
+hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/sample/ebaina3516
+
+2. 需要库文件libXD_Stream.a(archive目录下面), 复制到类似下面的目录:
+hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/lib
+
+3. 将3个头文件, XD_Common.h XD_Muxer.h XD_Stream.h, 放到类似下面的目录:
+hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/include
+
+4. 测试环境是GC2053+3516dv200开发板, vlc和opencv都可以拉流成功, 拉流地址:
+rtsp://ip/live/1
+
+5. 编译直接在ebaina3516目录使用make clean && make来编译
+
+6. 应用最好通过mount nfs的方式把编译好的应用传输到板子上
+
